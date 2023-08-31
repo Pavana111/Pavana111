@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gymproject</title>
+</head>
+<link sr="stylesheet" href="in.css">
+<style>
+    body{
+        color:rgb(235, 225, 225);
+        margin:0px;
+        padding:0px;
+        background:url('gym.jpg');
+        height:4556px
+        
+    }
+    .left
+    {
+        display:inline-block;
+        
+        position:absolute;
+        left:12px;
+        top:20px;
+    }
+    .right
+    {
+        position:absolute;
+        right:12px;
+        top:20px;
+        display:inline-block;
+       
+    }
+    .mid
+    {
+        display:block;
+        margin:12px auto;
+        width:50%;
+        
+    }
+    .make
+    {
+       display: inline-block;
+
+    }
+    .make li{
+        color:white;
+        font-size:25px;
+        display: inline-block;
+
+    }
+    .make li a{
+        padding:34px 23px;
+        color:white;
+        text-decoration: none;
+        
+    }
+    .make li a:hover,.make li a.active{
+        text-decoration: underline;
+        color:grey
+
+
+    }
+ .left img
+ {
+    margin-top:6px;
+    margin-left: 45px;
+    width:30px;
+     }   
+.btn
+{
+    margin:0px 9px;
+    color:white;
+    background-color:black;
+    padding:0px 4px;
+    font-size: 25px;
+    border:2 px solid white;
+    border-radius:2px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: blue;
+
+}
+.container{
+    border:2px solid white;
+    margin:106px 80px;
+    padding:75px;
+    width: 33%;
+    border-radius: 28px;
+} 
+.xx{
+    text-align: center;
+    display:block;
+    margin: 10px auto;
+    padding: 2px;
+    width:103%;
+    font-size:21%px;
+    border:2px solid black;
+    
+} 
+
+</style>
+<body>
+    <header class="pav">
+        <div class="left">
+            <img src='C:\html gym project\logo.jpg' alt="">
+            <div>welcome to harish gym</div>
+        </div>
+        <div class="mid">
+            <ul class="make">
+                <li><a href="#" class="active"> Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+             <button class="btn">call us</button>
+             <button class="btn">email</button>
+        </div>
+        
+    </header>
+    <div class="container">
+        <h1> Welcom to best one </h1> 
+        <form action="v.php">
+             <div class="xx">
+                <input type="text" name="" placeholder="enter the name">
+
+            </div>
+            <div class="xx">
+                <input type="text" name="" placeholder="enter the name">
+
+            </div>
+            <div class="xx">
+                <input type="text" name="" placeholder="enter the name">
+
+            </div>
+            <div class="xx">
+                <input type="text" name="" placeholder="enter the name">
+
+            </div>
+            <button class="btn">submit</button>
+            </form>
+    </div>
+</body>
+</html>
